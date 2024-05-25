@@ -3,6 +3,10 @@ main{
     margin: 0;
 
 }
+
+#contenedorG{
+    margin-top: 13%;
+}
 .sobre_nosotros{
     display: grid;
     height: fit-content;
@@ -20,6 +24,7 @@ main{
     width: 100%;
     padding: 1%;
     z-index: 2;
+    margin: -13% 0 0 0 ;
 }
 
 .cont1 h1{
