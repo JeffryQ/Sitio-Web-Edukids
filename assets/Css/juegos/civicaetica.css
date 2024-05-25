@@ -1,0 +1,150 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to right, 
+    #9C27B0,#AB47BC,#BA68C8,#CE93D8,#D1C4E9,#B39DDB,#9575CD,#7E57C2,#673AB7,#5E35B1,#512DA8,#4527A0,#311B92,#B388FF,#7C4DFF,#651FFF,#6200EA,#6200EA,#6200EA,#6200EA,#6200EA,#6200EA,#6200EA,#6200EA,#6200EA,#8E24AA);
+    background-size: 500%;
+    margin: 0;
+    padding: 0;
+    animation: gradientAnimation 15s linear infinite; /* Animación del fondo degradado */
+}
+
+#cont_general{
+    display: grid;
+    height: 70vh;
+    align-content: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff6c;
+    backdrop-filter: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: fit-content;
+}
+
+h1 {
+    color: #9C27B0;
+    font-size: 48px;
+    -webkit-text-stroke: 2px black;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de texto */
+}
+
+button {
+    background-color: #9C27B0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.opciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.opciones a{
+    text-decoration: none;
+}
+
+.opciones button{
+    background: linear-gradient( 90deg, rgb(181, 8, 204) 0%, rgb(86, 7, 131) 35%, rgb(132, 6, 190) 100%);   
+    display: flex;
+    width: 20rem;
+    max-height: 50px;
+    border-radius: 20px; 
+    border: solid 1px;
+    border-color: rgb(245, 157, 223);
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    font-weight:100;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.opciones button:hover{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 3px rgb(208, 220, 247);
+}
+
+#game {
+    margin-top: 50px;
+    background: linear-gradient(to right, 
+    #9C27B0,
+    #AB47BC,
+    #BA68C8,
+    #CE93D8,
+    #D1C4E9,
+    #B39DDB,
+    #9575CD,
+    #7E57C2,
+    #673AB7,
+    #5E35B1,
+    #512DA8,
+    #4527A0,
+    #311B92,
+    #B388FF,
+    #7C4DFF,
+    #651FFF,
+    #6200EA,
+    #6200EA,
+    #6200EA,
+    #6200EA,
+    #6200EA,
+    #6200EA,
+    #6200EA,
+    #6200EA,
+    #6200EA,
+    #8E24AA
+  );
+  background-size: 850%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    animation: gradientAnimation 18s linear infinite; /* Animación del fondo degradado */
+}
+
+#options {
+    margin-top: 20px;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+#final-score {
+    font-size: 72px; /* Tamaño de fuente más grande */
+    font-weight: bold;
+    color: #9C27B0;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+/* Definir la animación */
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%; /* Inicio de la animación */
+    }
+    100% {
+        background-position: 100% 50%; /* Final de la animación */
+    }
+}

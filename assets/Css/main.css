@@ -1,0 +1,59 @@
+:root {
+    --rojo1:#800016;
+    --rojo2:#A0001C;
+    --rojo3:#C00021;
+    --rojo4:#FF002B;
+    
+    --azul1:#a9d6e5;
+    --azul2:#61a5c2;
+    --azul3:#2c7da0;
+    --azul4:#014f86;
+    --azul5:#013a63;
+
+    --azulb1:#014e8670;
+    --azulb2:#013a637c;
+
+    --azul6:#0c192c;
+    --azul7:#00043A;
+
+    --gris1:#e9ecef;
+    --gris2:#dee2e6;
+    --gris3:#ced4da;
+    --gris4:#adb5bd;
+    --gris5:#6c757d;
+    --gris6:#343a40;
+    --gris7:#212529;
+
+    --morado1:#e0aaff;
+    --morado2:#c77dff;
+    --morado3:#9d4edd;
+    --morado4:#7b2cbf;
+    --morado5:#5a189a;
+    --morado6:#3c096c;
+    --morado7:#240046;
+    --morado8:#10002b;
+
+    --morado9:#7a2cbf9d;
+    --morado10:#24004673;
+
+    --amarillo1:#fff2b2;
+    --amarillo2:#ffe169;
+    --amarillo3:#ffee32;
+    --amarillo4:#ffd53e;
+    --amarillo5:#ff9e00;
+    --amarillo6:#ff8500;
+    --amarillo7:#ff6d00;
+
+    --blanco:#FFFFFF;
+    --negro: black;
+    
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+

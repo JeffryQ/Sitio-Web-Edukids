@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memorama</title>
+    <link rel="icon" href="/edukids/assets/img/logo2.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/edukids/assets/Css/juegos/memorama.css">
+</head>
+<body>
+    <main>
+        <div class="contGeneral">
+            <div class="subContenedor">
+                <section class="seccion1">
+                    <h1>Juego de memoria</h1>
+                    <table>
+                        <tr>
+                            <td><button id="0" onclick="destapar(0)"></button></td>
+                            <td><button id="1" onclick="destapar(1)"></button></td>
+                            <td><button id="2" onclick="destapar(2)"></button></td>
+                            <td><button id="3" onclick="destapar(3)"></button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="4" onclick="destapar(4)"></button></td>
+                            <td><button id="5" onclick="destapar(5)"></button></td>
+                            <td><button id="6" onclick="destapar(6)"></button></td>
+                            <td><button id="7" onclick="destapar(7)"></button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="8" onclick="destapar(8)"></button></td>
+                            <td><button id="9" onclick="destapar(9)"></button></td>
+                            <td><button id="10" onclick="destapar(10)"></button></td>
+                            <td><button id="11" onclick="destapar(11)"></button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="12" onclick="destapar(12)"></button></td>
+                            <td><button id="13" onclick="destapar(13)"></button></td>
+                            <td><button id="14" onclick="destapar(14)"></button></td>
+                            <td><button id="15" onclick="destapar(15)"></button></td>
+                        </tr>
+                    </table>
+                </section>
+                <section class="seccion2">
+                    <div id="aciertos" class="estadisticas">Aciertos: 0</div>
+                    <div id="t-restante" class="estadisticas">Tiempo: 30 segundos</div>
+                    <div id="movimientos" class="estadisticas">movimientos: 0</div>
+                </section>
+            </div>
+                <section class="opciones">
+                    <p>
+                        Juego programado por: EDUPLAY
+                    </p>
+                    <a href="/edukids/index.html" class="cont_boton">
+                        <button type="submit">
+                            volver a inicio
+                        </button>
+                    </a>
+                </section>
+        </div>
+    </main>
+    <footer>       
+    </footer>
+    <script src="/edukids/assets/Js/memorama.js" defer></script>
+</body>
+</html>
