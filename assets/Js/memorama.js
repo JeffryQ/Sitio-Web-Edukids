@@ -8,11 +8,11 @@ let segundoResultado = null;
 let movimientos = 0;
 let aciertos = 0;
 let temporizador = false;
-let timer = 30;
-let timerInicial = 30;
+let timer = 60;
+let timerInicial = 60;
 let tiempoRegresivoId = null;
 
-//apuntando a doc html
+//apuntando a documento en html
 let mostrarMovimientos = document.getElementById('movimientos');
 let mostrarAciertos= document.getElementById('aciertos');
 let mostrarTiempo= document.getElementById('t-restante');
